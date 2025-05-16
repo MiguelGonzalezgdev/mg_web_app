@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Mg WebApp',
       home: Scaffold(
-        appBar: AppBar(title: const Text('Material App Bar')),
+        appBar: AppBar(title: const Text('Mg App Bar')),
         body: const Center(child: Text('Hello World')),
       ),
     );
