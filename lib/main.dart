@@ -12,13 +12,13 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Sidebar ui',
+      title: 'Mg Web App',
       home: Scaffold(
         body: SidebarPage(),
         floatingActionButton: FloatingActionButton(
           onPressed: () {
             ScaffoldMessenger.of(context).showSnackBar(
-              SnackBar(content: const Text('Yay! Button Pressed!')),
+              SnackBar(content: const Text('Ya! Botón presionado!')),
             );
           },
           backgroundColor: Colors.green,
@@ -268,10 +268,10 @@ class _SidebarPageState extends State<SidebarPage> {
         items: _items,
         collapseOnBodyTap: false,
         avatarImg: _avatarImg,
-        title: 'John Smith',
+        title: 'MiguelGon',
         onTitleTap: () {
           ScaffoldMessenger.of(context).showSnackBar(
-            SnackBar(content: Text('Yay! Flutter Collapsible Sidebar!')),
+            SnackBar(content: Text('¡Sí! ¡Barra lateral plegable de Flutter!')),
           );
         },
         body: _body(size, context),

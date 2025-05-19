@@ -60408,10 +60408,10 @@ return B.c.aP(r,s)},
 $S:379}
 A.BQ.prototype={
 N(a){var s=null
-return new A.rU(new A.u4(new A.uu(s),A.al1(B.oM,B.zG,s,s,!1,new A.V9(a)),s),"Sidebar ui",!1,s)}}
+return new A.rU(new A.u4(new A.uu(s),A.al1(B.oM,B.zG,s,s,!1,new A.V9(a)),s),"Mg Web App",!1,s)}}
 A.V9.prototype={
 $0(){var s=null
-this.a.a_(t.q).f.c2(A.ca(s,s,s,s,s,B.u,s,B.Me,s,B.L,s,s,s,s,s,s,s,s,s))},
+this.a.a_(t.q).f.c2(A.ca(s,s,s,s,s,B.u,s,B.Mf,s,B.L,s,s,s,s,s,s,s,s,s))},
 $S:0}
 A.uu.prototype={
 ad(){return new A.Jt(new A.mz("assets/man.png"))}}
@@ -60431,7 +60431,7 @@ r=this.e
 r===$&&A.b()
 r=A.kB(p,A.MT(A.ae8(1.5707963267948966,A.a9o(A.a9f(r,B.uD,!1,A.b3(a).p1.a),new A.r(-n.b*0.3,-n.a*0.23))),p,p),B.E,B.xE,p,p,p,1/0,p,p,p,p,1/0)
 q=A.il(p,p,p,p,p,p,p,p,p,p,p,15,B.jo,p,p,p,p,!0,p,p,p,p,p,p,p,p)
-return A.a92(!0,new A.qd(this.f,"John Smith",A.il(p,p,p,p,p,p,p,p,p,p,p,20,B.jo,p,B.bm,p,p,!0,p,p,p,p,p,p,p,p),q,A.il(p,p,p,p,p,p,p,p,p,p,p,20,p,p,B.bm,p,p,!0,p,p,p,p,p,p,p,p),r,o.a.a<=800,!1,s,B.n,B.DA,new A.a5c(a),A.c([new A.f9(0.01,B.eK,B.DC,new A.r(3,3),20),new A.f9(0.01,B.eK,B.oM,new A.r(3,3),50)],t.xq),p),!0)}}
+return A.a92(!0,new A.qd(this.f,"MiguelGon",A.il(p,p,p,p,p,p,p,p,p,p,p,20,B.jo,p,B.bm,p,p,!0,p,p,p,p,p,p,p,p),q,A.il(p,p,p,p,p,p,p,p,p,p,p,20,p,p,B.bm,p,p,!0,p,p,p,p,p,p,p,p),r,o.a.a<=800,!1,s,B.n,B.DA,new A.a5c(a),A.c([new A.f9(0.01,B.eK,B.DC,new A.r(3,3),20),new A.f9(0.01,B.eK,B.oM,new A.r(3,3),50)],t.xq),p),!0)}}
 A.a5d.prototype={
 $1(a){return a.r},
 $S:380}
@@ -60598,7 +60598,7 @@ $0(){return this.a.e="Current News"},
 $S:0}
 A.a4T.prototype={
 $0(){var s=null
-return this.a.c.a_(t.q).f.c2(A.ca(s,s,s,s,s,B.u,s,B.Mf,s,B.L,s,s,s,s,s,s,s,s,s))},
+return this.a.c.a_(t.q).f.c2(A.ca(s,s,s,s,s,B.u,s,B.Me,s,B.L,s,s,s,s,s,s,s,s,s))},
 $S:7}
 A.a4U.prototype={
 $0(){var s=this.a
@@ -60668,7 +60668,7 @@ return this.a.c.a_(t.q).f.c2(A.ca(s,s,s,s,s,B.u,s,B.Mq,s,B.L,s,s,s,s,s,s,s,s,s))
 $S:7}
 A.a5c.prototype={
 $0(){var s=null
-this.a.a_(t.q).f.c2(A.ca(s,s,s,s,s,B.u,s,A.a9f("Yay! Flutter Collapsible Sidebar!",s,s,s),s,B.L,s,s,s,s,s,s,s,s,s))},
+this.a.a_(t.q).f.c2(A.ca(s,s,s,s,s,B.u,s,A.a9f("\xa1S\xed! \xa1Barra lateral plegable de Flutter!",s,s,s),s,B.L,s,s,s,s,s,s,s,s,s))},
 $S:0}
 A.ld.prototype={
 bk(a){var s=a.a,r=this.a,q=s[8]
@@ -65251,8 +65251,8 @@ B.Ma=new A.bS("Event",null,null,null,null,null,null)
 B.Mb=new A.bS("Alarm",null,null,null,null,null,null)
 B.Mc=new A.bS("Eco",null,null,null,null,null,null)
 B.Md=new A.bS("Cart",null,null,null,null,null,null)
-B.Me=new A.bS("Yay! Button Pressed!",null,null,null,null,null,null)
-B.Mf=new A.bS("Current News",null,null,null,null,null,null)
+B.Me=new A.bS("Current News",null,null,null,null,null,null)
+B.Mf=new A.bS("Ya! Bot\xf3n presionado!",null,null,null,null,null,null)
 B.Mg=new A.bS("Email",null,null,null,null,null,null)
 B.Mh=new A.bS("New News",null,null,null,null,null,null)
 B.Mi=new A.bS("Search",null,null,null,null,null,null)
