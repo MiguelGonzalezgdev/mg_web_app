@@ -11,6 +11,16 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      theme: ThemeData(
+        primarySwatch: Colors.green,
+        textTheme: const TextTheme(
+          displayLarge: TextStyle(
+            fontSize: 50,
+            fontWeight: FontWeight.bold,
+            color: Colors.black,
+          ),
+        ),
+      ),
       debugShowCheckedModeBanner: false,
       title: 'Mg Web App',
       home: Scaffold(
