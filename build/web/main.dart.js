@@ -59082,7 +59082,7 @@ s=r.gRB()
 r.d=s
 r.e=B.b.I0(s,new A.a3p()).a},
 gRB(){var s=this,r=null,q=t.EM
-return A.c([new A.dJ("Dashboard",B.zb,r,new A.a3a(s),new A.a3b(s),!0,A.c([new A.dJ("Menu",B.zh,r,new A.a3c(s),new A.a3g(s),!0,r),new A.dJ("Shop",B.za,new A.mk("assets/shop_icon.png"),new A.a3h(s),new A.a3i(s),!0,A.c([new A.dJ("Carrito",B.zk,r,new A.a3j(s),new A.a3k(s),!0,r)],q))],q)),new A.dJ("Empleados",B.zf,r,new A.a3l(s),new A.a3m(s),!1,r),new A.dJ("Configurar",B.zj,r,new A.a3n(s),new A.a3d(s),!1,r),new A.dJ("Ayuda",B.zg,r,new A.a3e(s),new A.a3f(s),!1,r)],q)},
+return A.c([new A.dJ("Dashboard",B.zb,r,new A.a3a(s),new A.a3b(s),!0,A.c([new A.dJ("Menu",B.zg,r,new A.a3c(s),new A.a3g(s),!0,r),new A.dJ("Shop",B.za,new A.mk("assets/shop_icon.png"),new A.a3h(s),new A.a3i(s),!0,A.c([new A.dJ("Carrito",B.zk,r,new A.a3j(s),new A.a3k(s),!0,r)],q))],q)),new A.dJ("Empleados",B.zi,r,new A.a3l(s),new A.a3m(s),!1,r),new A.dJ("Configurar",B.zj,r,new A.a3n(s),new A.a3d(s),!1,r),new A.dJ("Ayuda",B.zf,r,new A.a3e(s),new A.a3f(s),!1,r)],q)},
 P(a){var s,r,q,p=null,o=t.w,n=A.c9(a,p,o).w.a
 o=A.c9(a,p,o).w
 s=this.d
@@ -61999,16 +61999,16 @@ B.zb=new A.dp(57508,!1)
 B.zc=new A.dp(57695,!0)
 B.zd=new A.dp(57925,!1)
 B.ze=new A.dp(57926,!1)
-B.zf=new A.dp(57938,!1)
-B.zg=new A.dp(58121,!0)
-B.zh=new A.dp(58333,!1)
+B.zf=new A.dp(58121,!0)
+B.zg=new A.dp(58333,!1)
+B.zi=new A.dp(58502,!1)
 B.zj=new A.dp(58751,!1)
 B.zk=new A.dp(58780,!1)
 B.jr=new A.ci(24,0,400,0,48,B.o,1,null,!1)
 B.zl=new A.ci(null,null,null,null,null,B.j,null,null,null)
 B.zm=new A.ci(null,null,null,null,null,B.o,null,null,null)
-B.zi=new A.dp(58398,!1)
-B.zn=new A.r_(B.zi,null,null,null,null)
+B.zh=new A.dp(58398,!1)
+B.zn=new A.r_(B.zh,null,null,null,null)
 B.zy=new A.mX(0,"repeat")
 B.zz=new A.mX(1,"repeatX")
 B.zA=new A.mX(2,"repeatY")
