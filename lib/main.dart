@@ -98,7 +98,8 @@ class _SidebarPageState extends State<SidebarPage> {
 
       CollapsibleItem(
         text: 'Empleados',
-        icon: Icons.face,
+
+        icon: Icons.people,
         onPressed: () => setState(() => _headline = 'Empleados'),
         onHold:
             () => ScaffoldMessenger.of(
