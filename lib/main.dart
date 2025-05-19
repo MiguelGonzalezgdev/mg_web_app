@@ -82,179 +82,47 @@ class _SidebarPageState extends State<SidebarPage> {
             isSelected: true,
             subItems: [
               CollapsibleItem(
-                text: 'Cart',
+                text: 'Carrito',
                 icon: Icons.shopping_cart,
-                onPressed: () => setState(() => _headline = 'Cart'),
+                onPressed: () => setState(() => _headline = 'Carrito'),
                 onHold:
                     () => ScaffoldMessenger.of(
                       context,
-                    ).showSnackBar(SnackBar(content: const Text("Cart"))),
+                    ).showSnackBar(SnackBar(content: const Text("Carrito"))),
                 isSelected: true,
               ),
             ],
           ),
         ],
       ),
+
       CollapsibleItem(
-        text: 'Search',
-        icon: Icons.search,
-        onPressed: () => setState(() => _headline = 'Search'),
+        text: 'Empleados',
+        icon: Icons.face,
+        onPressed: () => setState(() => _headline = 'Empleados'),
         onHold:
             () => ScaffoldMessenger.of(
               context,
-            ).showSnackBar(SnackBar(content: const Text("Search"))),
+            ).showSnackBar(SnackBar(content: const Text("Empleados"))),
       ),
+
       CollapsibleItem(
-        text: 'Notifications',
-        icon: Icons.notifications,
-        onPressed: () => setState(() => _headline = 'Notifications'),
-        onHold:
-            () => ScaffoldMessenger.of(
-              context,
-            ).showSnackBar(SnackBar(content: const Text("Notifications"))),
-      ),
-      CollapsibleItem(
-        text: 'Settings',
+        text: 'Configurar',
         icon: Icons.settings,
-        onPressed: () => setState(() => _headline = 'Settings'),
+        onPressed: () => setState(() => _headline = 'Configurar'),
         onHold:
             () => ScaffoldMessenger.of(
               context,
             ).showSnackBar(SnackBar(content: const Text("Settings"))),
       ),
       CollapsibleItem(
-        text: 'Alarm',
-        icon: Icons.access_alarm,
-        onPressed: () => setState(() => _headline = 'Alarm'),
+        text: 'Ayuda',
+        icon: Icons.help,
+        onPressed: () => setState(() => _headline = 'Ayuda'),
         onHold:
             () => ScaffoldMessenger.of(
               context,
-            ).showSnackBar(SnackBar(content: const Text("Alarm"))),
-      ),
-      CollapsibleItem(
-        text: 'Eco',
-        icon: Icons.eco,
-        onPressed: () => setState(() => _headline = 'Eco'),
-        onHold:
-            () => ScaffoldMessenger.of(
-              context,
-            ).showSnackBar(SnackBar(content: const Text("Eco"))),
-      ),
-      CollapsibleItem(
-        text: 'Event',
-        icon: Icons.event,
-        onPressed: () => setState(() => _headline = 'Event'),
-        onHold:
-            () => ScaffoldMessenger.of(
-              context,
-            ).showSnackBar(SnackBar(content: const Text("Event"))),
-      ),
-      CollapsibleItem(
-        text: 'No Icon',
-        onPressed: () => setState(() => _headline = 'No Icon'),
-        onHold:
-            () => ScaffoldMessenger.of(
-              context,
-            ).showSnackBar(SnackBar(content: const Text("No Icon"))),
-      ),
-      CollapsibleItem(
-        text: 'Email',
-        icon: Icons.email,
-        onPressed: () => setState(() => _headline = 'Email'),
-        onHold:
-            () => ScaffoldMessenger.of(
-              context,
-            ).showSnackBar(SnackBar(content: const Text("Email"))),
-      ),
-      CollapsibleItem(
-        text: 'News',
-        iconImage: NetworkImage(
-          "https://cdn-icons-png.flaticon.com/512/330/330703.png",
-        ),
-        onPressed: () => setState(() => _headline = 'News'),
-        onHold:
-            () => ScaffoldMessenger.of(
-              context,
-            ).showSnackBar(SnackBar(content: const Text("News"))),
-        subItems: [
-          CollapsibleItem(
-            text: 'Old News',
-            icon: Icons.elderly,
-            onPressed: () => setState(() => _headline = 'Old News'),
-            onHold:
-                () => ScaffoldMessenger.of(
-                  context,
-                ).showSnackBar(SnackBar(content: const Text("Old News"))),
-          ),
-          CollapsibleItem(
-            text: 'Current News',
-            icon: Icons.yard_outlined,
-            onPressed: () => setState(() => _headline = 'Current News'),
-            onHold:
-                () => ScaffoldMessenger.of(
-                  context,
-                ).showSnackBar(SnackBar(content: const Text("Current News"))),
-            subItems: [
-              CollapsibleItem(
-                text: 'News 1',
-                icon: Icons.one_k,
-                onPressed: () => setState(() => _headline = 'News 1'),
-                onHold:
-                    () => ScaffoldMessenger.of(
-                      context,
-                    ).showSnackBar(SnackBar(content: const Text("News 1"))),
-              ),
-              CollapsibleItem(
-                text: 'News 2',
-                icon: Icons.two_k,
-                onPressed: () => setState(() => _headline = 'News 2'),
-                onHold:
-                    () => ScaffoldMessenger.of(
-                      context,
-                    ).showSnackBar(SnackBar(content: const Text("News 2"))),
-                subItems: [
-                  CollapsibleItem(
-                    text: 'News 2 Detail',
-                    icon: Icons.two_k_outlined,
-                    onPressed:
-                        () => setState(() => _headline = 'News 2 Detail'),
-                    onHold:
-                        () => ScaffoldMessenger.of(context).showSnackBar(
-                          SnackBar(content: const Text("News 2 Detail")),
-                        ),
-                  ),
-                ],
-              ),
-              CollapsibleItem(
-                text: 'News 3',
-                icon: Icons.three_k,
-                onPressed: () => setState(() => _headline = 'News 3'),
-                onHold:
-                    () => ScaffoldMessenger.of(
-                      context,
-                    ).showSnackBar(SnackBar(content: const Text("News 3"))),
-              ),
-            ],
-          ),
-          CollapsibleItem(
-            text: 'New News',
-            icon: Icons.account_balance,
-            onPressed: () => setState(() => _headline = 'New News'),
-            onHold:
-                () => ScaffoldMessenger.of(
-                  context,
-                ).showSnackBar(SnackBar(content: const Text("New News"))),
-          ),
-        ],
-      ),
-      CollapsibleItem(
-        text: 'Face',
-        icon: Icons.face,
-        onPressed: () => setState(() => _headline = 'Face'),
-        onHold:
-            () => ScaffoldMessenger.of(
-              context,
-            ).showSnackBar(SnackBar(content: const Text("Face"))),
+            ).showSnackBar(SnackBar(content: const Text("Ayuda"))),
       ),
     ];
   }
@@ -270,12 +138,12 @@ class _SidebarPageState extends State<SidebarPage> {
         avatarImg: _avatarImg,
         title: 'MiguelGon',
         onTitleTap: () {
-          ScaffoldMessenger.of(context).showSnackBar(
-            SnackBar(content: Text('¡Sí! ¡Barra lateral plegable de Flutter!')),
-          );
+          ScaffoldMessenger.of(
+            context,
+          ).showSnackBar(SnackBar(content: Text('Miguel A Gonzalez D - 2025')));
         },
         body: _body(size, context),
-        backgroundColor: Colors.black,
+        backgroundColor: const Color.fromARGB(255, 26, 25, 25),
         selectedTextColor: Colors.limeAccent,
         textStyle: TextStyle(fontSize: 15, fontStyle: FontStyle.italic),
         titleStyle: TextStyle(
@@ -306,7 +174,7 @@ class _SidebarPageState extends State<SidebarPage> {
     return Container(
       height: double.infinity,
       width: double.infinity,
-      color: Colors.blueGrey[50],
+      color: const Color.fromARGB(255, 205, 205, 206),
       child: Center(
         child: Transform.rotate(
           angle: math.pi / 2,
