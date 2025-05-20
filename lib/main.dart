@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
           displayLarge: TextStyle(
             fontSize: 50,
             fontWeight: FontWeight.bold,
-            color: Colors.black,
+            color: Colors.green,
           ),
         ),
       ),
@@ -147,8 +147,9 @@ class _SidebarPageState extends State<SidebarPage> {
           );
         },
         body: _body(size, context),
-        backgroundColor: const Color.fromARGB(255, 26, 25, 25),
-        selectedTextColor: Colors.limeAccent,
+        backgroundColor: const Color.fromARGB(255, 1, 82, 44),
+        selectedIconColor: const Color.fromARGB(255, 25, 209, 18),
+        selectedTextColor: const Color.fromARGB(255, 252, 252, 251),
         textStyle: TextStyle(fontSize: 15, fontStyle: FontStyle.italic),
         titleStyle: TextStyle(
           fontSize: 20,
