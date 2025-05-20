@@ -23,18 +23,7 @@ class MyApp extends StatelessWidget {
       ),
       debugShowCheckedModeBanner: false,
       title: 'Mg Web App',
-      home: Scaffold(
-        body: SidebarPage(),
-        floatingActionButton: FloatingActionButton(
-          onPressed: () {
-            ScaffoldMessenger.of(context).showSnackBar(
-              SnackBar(content: const Text('Ya! Botón presionado!')),
-            );
-          },
-          backgroundColor: Colors.green,
-          child: const Icon(Icons.navigation),
-        ),
-      ),
+      home: Scaffold(body: SidebarPage()),
     );
   }
 }
@@ -43,6 +32,7 @@ class SidebarPage extends StatefulWidget {
   const SidebarPage({super.key});
 
   @override
+  // ignore: library_private_types_in_public_api
   _SidebarPageState createState() => _SidebarPageState();
 }
 
@@ -148,10 +138,13 @@ class _SidebarPageState extends State<SidebarPage> {
         collapseOnBodyTap: false,
         avatarImg: _avatarImg,
         title: 'MiguelGon',
+        toggleTitle: 'Ocultar',
         onTitleTap: () {
-          ScaffoldMessenger.of(
-            context,
-          ).showSnackBar(SnackBar(content: Text('Miguel A Gonzalez D - 2025')));
+          ScaffoldMessenger.of(context).showSnackBar(
+            SnackBar(
+              content: Text('Miguel A Gonzalez D - Mayo  2025 - 0424.693.6366'),
+            ),
+          );
         },
         body: _body(size, context),
         backgroundColor: const Color.fromARGB(255, 26, 25, 25),
