@@ -141,9 +141,7 @@ class _SidebarPageState extends State<SidebarPage> {
         toggleTitle: 'Ocultar',
         onTitleTap: () {
           ScaffoldMessenger.of(context).showSnackBar(
-            SnackBar(
-              content: Text('Miguel A Gonzalez D - Mayo  2025 - 0424.693.6366'),
-            ),
+            SnackBar(content: Text('Miguel A Gonzalez D -   0424.693.6366')),
           );
         },
         body: _body(size, context),

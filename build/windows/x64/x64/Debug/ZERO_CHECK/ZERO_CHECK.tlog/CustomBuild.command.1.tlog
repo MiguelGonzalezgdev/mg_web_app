@@ -1,0 +1,10 @@
+^C:\DEV\MG_WEB_APP\BUILD\WINDOWS\X64\CMAKEFILES\3A6C394AED6DAFB387A08447BC1B935B\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/dev/mg_web_app/windows -BC:/dev/mg_web_app/build/windows/x64 --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/dev/mg_web_app/build/windows/x64/mg_web_app.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

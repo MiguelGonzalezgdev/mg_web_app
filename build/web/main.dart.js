@@ -57851,7 +57851,7 @@ return this.a.c.ab(t.Q).f.hQ(A.ju(s,s,s,s,s,B.I,s,B.Lf,s,B.aV,s,s,s,s,s,s,s,s,s)
 $S:23}
 A.a2x.prototype={
 $0(){var s=null
-this.a.ab(t.Q).f.hQ(A.ju(s,s,s,s,s,B.I,s,A.a6o("Miguel A Gonzalez D - Mayo  2025 - 0424.693.6366",s,s,s),s,B.aV,s,s,s,s,s,s,s,s,s))},
+this.a.ab(t.Q).f.hQ(A.ju(s,s,s,s,s,B.I,s,A.a6o("Miguel A Gonzalez D -   0424.693.6366",s,s,s),s,B.aV,s,s,s,s,s,s,s,s,s))},
 $S:0}
 A.kS.prototype={
 bp(a){var s=a.a,r=this.a,q=s[8]

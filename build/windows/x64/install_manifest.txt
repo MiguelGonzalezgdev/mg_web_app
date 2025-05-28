@@ -1,0 +1,17 @@
+C:/dev/mg_web_app/build/windows/x64/runner/Debug/data/icudtl.dat
+C:/dev/mg_web_app/build/windows/x64/runner/Debug/flutter_windows.dll
+C:/dev/mg_web_app/build/windows/x64/runner/Debug/data/flutter_assets/AssetManifest.bin
+C:/dev/mg_web_app/build/windows/x64/runner/Debug/data/flutter_assets/AssetManifest.bin.json
+C:/dev/mg_web_app/build/windows/x64/runner/Debug/data/flutter_assets/AssetManifest.json
+C:/dev/mg_web_app/build/windows/x64/runner/Debug/data/flutter_assets/assets/empleado.png
+C:/dev/mg_web_app/build/windows/x64/runner/Debug/data/flutter_assets/assets/man.png
+C:/dev/mg_web_app/build/windows/x64/runner/Debug/data/flutter_assets/assets/nominas.png
+C:/dev/mg_web_app/build/windows/x64/runner/Debug/data/flutter_assets/assets/shop_icon.png
+C:/dev/mg_web_app/build/windows/x64/runner/Debug/data/flutter_assets/FontManifest.json
+C:/dev/mg_web_app/build/windows/x64/runner/Debug/data/flutter_assets/fonts/MaterialIcons-Regular.otf
+C:/dev/mg_web_app/build/windows/x64/runner/Debug/data/flutter_assets/kernel_blob.bin
+C:/dev/mg_web_app/build/windows/x64/runner/Debug/data/flutter_assets/NativeAssetsManifest.json
+C:/dev/mg_web_app/build/windows/x64/runner/Debug/data/flutter_assets/NOTICES
+C:/dev/mg_web_app/build/windows/x64/runner/Debug/data/flutter_assets/NOTICES.Z
+C:/dev/mg_web_app/build/windows/x64/runner/Debug/data/flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf
+C:/dev/mg_web_app/build/windows/x64/runner/Debug/data/flutter_assets/shaders/ink_sparkle.frag
