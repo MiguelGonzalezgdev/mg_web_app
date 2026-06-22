@@ -22,7 +22,7 @@ class MyApp extends StatelessWidget {
         ),
       ),
       debugShowCheckedModeBanner: false,
-      title: 'Mg Web App',
+      title: 'Mg Web App 2.026',
       home: Scaffold(body: SidebarPage()),
     );
   }
