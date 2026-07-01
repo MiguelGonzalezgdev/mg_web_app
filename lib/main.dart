@@ -22,7 +22,7 @@ class MyApp extends StatelessWidget {
         ),
       ),
       debugShowCheckedModeBanner: false,
-      title: 'Mg Web App 2.026',
+      title: 'MiguelGon  2.026',
       home: Scaffold(body: SidebarPage()),
     );
   }
@@ -137,7 +137,7 @@ class _SidebarPageState extends State<SidebarPage> {
         items: _items,
         collapseOnBodyTap: false,
         avatarImg: _avatarImg,
-        title: 'MiguelGon',
+        title: 'AppWeb 2.026',
         toggleTitle: 'Ocultar',
         onTitleTap: () {
           ScaffoldMessenger.of(context).showSnackBar(
